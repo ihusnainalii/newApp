@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0684526B7631E75655C1E8F5 /* Pods_wishkart_pkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298DEA3BA30B08A6DE10415B /* Pods_wishkart_pkUITests.framework */; };
+		18E354F921955E8F00F68684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E354F821955E8F00F68684 /* AppDelegate.swift */; };
+		18E354FB21955E8F00F68684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E354FA21955E8F00F68684 /* ViewController.swift */; };
+		18E354FE21955E8F00F68684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E354FC21955E8F00F68684 /* Main.storyboard */; };
+		18E3550121955E8F00F68684 /* wishkart_pk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E354FF21955E8F00F68684 /* wishkart_pk.xcdatamodeld */; };
+		18E3550321955E9000F68684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E3550221955E9000F68684 /* Assets.xcassets */; };
+		18E3550621955E9000F68684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3550421955E9000F68684 /* LaunchScreen.storyboard */; };
+		18E3551121955E9100F68684 /* wishkart_pkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3551021955E9100F68684 /* wishkart_pkTests.swift */; };
+		18E3551C21955E9100F68684 /* wishkart_pkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3551B21955E9100F68684 /* wishkart_pkUITests.swift */; };
+		8FC2E51969B6A5D4788499A0 /* Pods_wishkart_pkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A46019DDE94E4467D191A2 /* Pods_wishkart_pkTests.framework */; };
+		DBD08E48DF1E0098FCD15912 /* Pods_wishkart_pk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4BEB72F694221497BD5F26 /* Pods_wishkart_pk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E3550D21955E9100F68684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E354ED21955E8F00F68684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E354F421955E8F00F68684;
+			remoteInfo = wishkart.pk;
+		};
+		18E3551821955E9100F68684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E354ED21955E8F00F68684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E354F421955E8F00F68684;
+			remoteInfo = wishkart.pk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0218817C9241A424C4CDDDD7 /* Pods-wishkart.pkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pkTests/Pods-wishkart.pkTests.release.xcconfig"; sourceTree = "<group>"; };
+		18E354F521955E8F00F68684 /* wishkart.pk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wishkart.pk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E354F821955E8F00F68684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E354FA21955E8F00F68684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E354FD21955E8F00F68684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E3550021955E8F00F68684 /* wishkart_pk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wishkart_pk.xcdatamodel; sourceTree = "<group>"; };
+		18E3550221955E9000F68684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E3550521955E9000F68684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E3550721955E9000F68684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3550C21955E9100F68684 /* wishkart.pkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wishkart.pkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3551021955E9100F68684 /* wishkart_pkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishkart_pkTests.swift; sourceTree = "<group>"; };
+		18E3551221955E9100F68684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3551721955E9100F68684 /* wishkart.pkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wishkart.pkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3551B21955E9100F68684 /* wishkart_pkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishkart_pkUITests.swift; sourceTree = "<group>"; };
+		18E3551D21955E9100F68684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE5526D388290B44CD43297 /* Pods-wishkart.pk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pk.release.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pk/Pods-wishkart.pk.release.xcconfig"; sourceTree = "<group>"; };
+		298DEA3BA30B08A6DE10415B /* Pods_wishkart_pkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wishkart_pkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582CCD2827E98BD2C9C0EEBC /* Pods-wishkart.pkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pkUITests/Pods-wishkart.pkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A4BEB72F694221497BD5F26 /* Pods_wishkart_pk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wishkart_pk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		827F6465E892182B9F2B4255 /* Pods-wishkart.pkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pkTests/Pods-wishkart.pkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A46019DDE94E4467D191A2 /* Pods_wishkart_pkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wishkart_pkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA15CFCE861ECC1F5C7E4227 /* Pods-wishkart.pkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pkUITests/Pods-wishkart.pkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F005328B235E7486E7B098FF /* Pods-wishkart.pk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pk/Pods-wishkart.pk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E354F221955E8F00F68684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD08E48DF1E0098FCD15912 /* Pods_wishkart_pk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3550921955E9100F68684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC2E51969B6A5D4788499A0 /* Pods_wishkart_pkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3551421955E9100F68684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0684526B7631E75655C1E8F5 /* Pods_wishkart_pkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E354EC21955E8F00F68684 = {
+			isa = PBXGroup;
+			children = (
+				18E354F721955E8F00F68684 /* wishkart.pk */,
+				18E3550F21955E9100F68684 /* wishkart.pkTests */,
+				18E3551A21955E9100F68684 /* wishkart.pkUITests */,
+				18E354F621955E8F00F68684 /* Products */,
+				C5E07EDDC777BA4A78B61A9E /* Pods */,
+				C2B1A1442DEB06B8BB647B48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E354F621955E8F00F68684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E354F521955E8F00F68684 /* wishkart.pk.app */,
+				18E3550C21955E9100F68684 /* wishkart.pkTests.xctest */,
+				18E3551721955E9100F68684 /* wishkart.pkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E354F721955E8F00F68684 /* wishkart.pk */ = {
+			isa = PBXGroup;
+			children = (
+				18E354F821955E8F00F68684 /* AppDelegate.swift */,
+				18E354FA21955E8F00F68684 /* ViewController.swift */,
+				18E354FC21955E8F00F68684 /* Main.storyboard */,
+				18E3550221955E9000F68684 /* Assets.xcassets */,
+				18E3550421955E9000F68684 /* LaunchScreen.storyboard */,
+				18E3550721955E9000F68684 /* Info.plist */,
+				18E354FF21955E8F00F68684 /* wishkart_pk.xcdatamodeld */,
+			);
+			path = wishkart.pk;
+			sourceTree = "<group>";
+		};
+		18E3550F21955E9100F68684 /* wishkart.pkTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E3551021955E9100F68684 /* wishkart_pkTests.swift */,
+				18E3551221955E9100F68684 /* Info.plist */,
+			);
+			path = wishkart.pkTests;
+			sourceTree = "<group>";
+		};
+		18E3551A21955E9100F68684 /* wishkart.pkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E3551B21955E9100F68684 /* wishkart_pkUITests.swift */,
+				18E3551D21955E9100F68684 /* Info.plist */,
+			);
+			path = wishkart.pkUITests;
+			sourceTree = "<group>";
+		};
+		C2B1A1442DEB06B8BB647B48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4BEB72F694221497BD5F26 /* Pods_wishkart_pk.framework */,
+				B0A46019DDE94E4467D191A2 /* Pods_wishkart_pkTests.framework */,
+				298DEA3BA30B08A6DE10415B /* Pods_wishkart_pkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E07EDDC777BA4A78B61A9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F005328B235E7486E7B098FF /* Pods-wishkart.pk.debug.xcconfig */,
+				1EE5526D388290B44CD43297 /* Pods-wishkart.pk.release.xcconfig */,
+				827F6465E892182B9F2B4255 /* Pods-wishkart.pkTests.debug.xcconfig */,
+				0218817C9241A424C4CDDDD7 /* Pods-wishkart.pkTests.release.xcconfig */,
+				CA15CFCE861ECC1F5C7E4227 /* Pods-wishkart.pkUITests.debug.xcconfig */,
+				582CCD2827E98BD2C9C0EEBC /* Pods-wishkart.pkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E354F421955E8F00F68684 /* wishkart.pk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3552021955E9100F68684 /* Build configuration list for PBXNativeTarget "wishkart.pk" */;
+			buildPhases = (
+				0E9CCEC18BAB90B0A98D4471 /* [CP] Check Pods Manifest.lock */,
+				18E354F121955E8F00F68684 /* Sources */,
+				18E354F221955E8F00F68684 /* Frameworks */,
+				18E354F321955E8F00F68684 /* Resources */,
+				3EB040EE435A970C302D42E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wishkart.pk;
+			productName = wishkart.pk;
+			productReference = 18E354F521955E8F00F68684 /* wishkart.pk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E3550B21955E9100F68684 /* wishkart.pkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3552321955E9100F68684 /* Build configuration list for PBXNativeTarget "wishkart.pkTests" */;
+			buildPhases = (
+				8214B71D57A2D50E40DC7645 /* [CP] Check Pods Manifest.lock */,
+				18E3550821955E9100F68684 /* Sources */,
+				18E3550921955E9100F68684 /* Frameworks */,
+				18E3550A21955E9100F68684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E3550E21955E9100F68684 /* PBXTargetDependency */,
+			);
+			name = wishkart.pkTests;
+			productName = wishkart.pkTests;
+			productReference = 18E3550C21955E9100F68684 /* wishkart.pkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E3551621955E9100F68684 /* wishkart.pkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3552621955E9100F68684 /* Build configuration list for PBXNativeTarget "wishkart.pkUITests" */;
+			buildPhases = (
+				73F9E3C8B583985F8E3031B3 /* [CP] Check Pods Manifest.lock */,
+				18E3551321955E9100F68684 /* Sources */,
+				18E3551421955E9100F68684 /* Frameworks */,
+				18E3551521955E9100F68684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E3551921955E9100F68684 /* PBXTargetDependency */,
+			);
+			name = wishkart.pkUITests;
+			productName = wishkart.pkUITests;
+			productReference = 18E3551721955E9100F68684 /* wishkart.pkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E354ED21955E8F00F68684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Husnain;
+				TargetAttributes = {
+					18E354F421955E8F00F68684 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					18E3550B21955E9100F68684 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 18E354F421955E8F00F68684;
+					};
+					18E3551621955E9100F68684 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 18E354F421955E8F00F68684;
+					};
+				};
+			};
+			buildConfigurationList = 18E354F021955E8F00F68684 /* Build configuration list for PBXProject "wishkart.pk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E354EC21955E8F00F68684;
+			productRefGroup = 18E354F621955E8F00F68684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E354F421955E8F00F68684 /* wishkart.pk */,
+				18E3550B21955E9100F68684 /* wishkart.pkTests */,
+				18E3551621955E9100F68684 /* wishkart.pkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E354F321955E8F00F68684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3550621955E9000F68684 /* LaunchScreen.storyboard in Resources */,
+				18E3550321955E9000F68684 /* Assets.xcassets in Resources */,
+				18E354FE21955E8F00F68684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3550A21955E9100F68684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3551521955E9100F68684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E9CCEC18BAB90B0A98D4471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wishkart.pk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EB040EE435A970C302D42E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wishkart.pk/Pods-wishkart.pk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PullToRefreshKit/PullToRefreshKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToRefreshKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wishkart.pk/Pods-wishkart.pk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F9E3C8B583985F8E3031B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wishkart.pkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8214B71D57A2D50E40DC7645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wishkart.pkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E354F121955E8F00F68684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3550121955E8F00F68684 /* wishkart_pk.xcdatamodeld in Sources */,
+				18E354FB21955E8F00F68684 /* ViewController.swift in Sources */,
+				18E354F921955E8F00F68684 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3550821955E9100F68684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3551121955E9100F68684 /* wishkart_pkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3551321955E9100F68684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3551C21955E9100F68684 /* wishkart_pkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E3550E21955E9100F68684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E354F421955E8F00F68684 /* wishkart.pk */;
+			targetProxy = 18E3550D21955E9100F68684 /* PBXContainerItemProxy */;
+		};
+		18E3551921955E9100F68684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E354F421955E8F00F68684 /* wishkart.pk */;
+			targetProxy = 18E3551821955E9100F68684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E354FC21955E8F00F68684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E354FD21955E8F00F68684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E3550421955E9000F68684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E3550521955E9000F68684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E3551E21955E9100F68684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E3551F21955E9100F68684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E3552121955E9100F68684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F005328B235E7486E7B098FF /* Pods-wishkart.pk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSS9T994V4;
+				INFOPLIST_FILE = wishkart.pk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E3552221955E9100F68684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE5526D388290B44CD43297 /* Pods-wishkart.pk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSS9T994V4;
+				INFOPLIST_FILE = wishkart.pk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E3552421955E9100F68684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827F6465E892182B9F2B4255 /* Pods-wishkart.pkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSS9T994V4;
+				INFOPLIST_FILE = wishkart.pkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wishkart.pk.app/wishkart.pk";
+			};
+			name = Debug;
+		};
+		18E3552521955E9100F68684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0218817C9241A424C4CDDDD7 /* Pods-wishkart.pkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSS9T994V4;
+				INFOPLIST_FILE = wishkart.pkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wishkart.pk.app/wishkart.pk";
+			};
+			name = Release;
+		};
+		18E3552721955E9100F68684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA15CFCE861ECC1F5C7E4227 /* Pods-wishkart.pkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSS9T994V4;
+				INFOPLIST_FILE = wishkart.pkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wishkart.pk;
+			};
+			name = Debug;
+		};
+		18E3552821955E9100F68684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582CCD2827E98BD2C9C0EEBC /* Pods-wishkart.pkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSS9T994V4;
+				INFOPLIST_FILE = wishkart.pkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wishkart.pk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E354F021955E8F00F68684 /* Build configuration list for PBXProject "wishkart.pk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3551E21955E9100F68684 /* Debug */,
+				18E3551F21955E9100F68684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3552021955E9100F68684 /* Build configuration list for PBXNativeTarget "wishkart.pk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3552121955E9100F68684 /* Debug */,
+				18E3552221955E9100F68684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3552321955E9100F68684 /* Build configuration list for PBXNativeTarget "wishkart.pkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3552421955E9100F68684 /* Debug */,
+				18E3552521955E9100F68684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3552621955E9100F68684 /* Build configuration list for PBXNativeTarget "wishkart.pkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3552721955E9100F68684 /* Debug */,
+				18E3552821955E9100F68684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E354FF21955E8F00F68684 /* wishkart_pk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E3550021955E8F00F68684 /* wishkart_pk.xcdatamodel */,
+			);
+			currentVersion = 18E3550021955E8F00F68684 /* wishkart_pk.xcdatamodel */;
+			path = wishkart_pk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18E354ED21955E8F00F68684 /* Project object */;
+}

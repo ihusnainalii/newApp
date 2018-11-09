@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'wishkart.pk' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for wishkart.pk
+ ##############################
+  ######### POD LIST ###########
+  ##############################
+  
+  # Everything has a beginning. For using a framework, it's installation.
+  
+  # Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView.
+  pod 'IQKeyboardManager'
+  
+  # Pod for networking
+  pod 'Alamofire'
+  
+  # Pod for json Parsing
+  pod 'SwiftyJSON'
+  
+  # Pod for Loading
+  pod 'MBProgressHUD', '~> 0.9'
+
+  # Pods for AutoLayout
+  pod 'SnapKit'
+
+  # Pods for images
+  pod 'Kingfisher'
+
+  # Pod for Pull To Refresh
+  pod 'PullToRefreshKit'
+
+  target 'wishkart.pkTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'wishkart.pkUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

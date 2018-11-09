@@ -1,0 +1,6 @@
+framework module Pods_wishkart_pkTests {
+  umbrella header "Pods-wishkart.pkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
