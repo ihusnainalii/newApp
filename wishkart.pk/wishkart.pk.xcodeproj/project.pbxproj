@@ -16,6 +16,13 @@
 		18E3550621955E9000F68684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3550421955E9000F68684 /* LaunchScreen.storyboard */; };
 		18E3551121955E9100F68684 /* wishkart_pkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3551021955E9100F68684 /* wishkart_pkTests.swift */; };
 		18E3551C21955E9100F68684 /* wishkart_pkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3551B21955E9100F68684 /* wishkart_pkUITests.swift */; };
+		18E3552D21955FAD00F68684 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3552C21955FAD00F68684 /* NetworkManager.swift */; };
+		18E3553021955FE300F68684 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3552F21955FE300F68684 /* Constants.swift */; };
+		18E355332195600900F68684 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E355322195600900F68684 /* Globals.swift */; };
+		18E355362195603C00F68684 /* AlertControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E355352195603C00F68684 /* AlertControllerHelper.swift */; };
+		18E35539219560C200F68684 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E35538219560C200F68684 /* UIApplication+Extension.swift */; };
+		18E3554F219561E200F68684 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3554E219561E200F68684 /* User.swift */; };
+		18E355522195623F00F68684 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E355512195623F00F68684 /* Utilities.swift */; };
 		8FC2E51969B6A5D4788499A0 /* Pods_wishkart_pkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A46019DDE94E4467D191A2 /* Pods_wishkart_pkTests.framework */; };
 		DBD08E48DF1E0098FCD15912 /* Pods_wishkart_pk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4BEB72F694221497BD5F26 /* Pods_wishkart_pk.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +60,13 @@
 		18E3551721955E9100F68684 /* wishkart.pkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wishkart.pkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E3551B21955E9100F68684 /* wishkart_pkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishkart_pkUITests.swift; sourceTree = "<group>"; };
 		18E3551D21955E9100F68684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3552C21955FAD00F68684 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		18E3552F21955FE300F68684 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18E355322195600900F68684 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		18E355352195603C00F68684 /* AlertControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerHelper.swift; sourceTree = "<group>"; };
+		18E35538219560C200F68684 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		18E3554E219561E200F68684 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18E355512195623F00F68684 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		1EE5526D388290B44CD43297 /* Pods-wishkart.pk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pk.release.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pk/Pods-wishkart.pk.release.xcconfig"; sourceTree = "<group>"; };
 		298DEA3BA30B08A6DE10415B /* Pods_wishkart_pkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wishkart_pkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		582CCD2827E98BD2C9C0EEBC /* Pods-wishkart.pkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wishkart.pkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wishkart.pkUITests/Pods-wishkart.pkUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,11 +130,17 @@
 		18E354F721955E8F00F68684 /* wishkart.pk */ = {
 			isa = PBXGroup;
 			children = (
+				18E355502195621400F68684 /* Utilities */,
+				18E3554D219561CE00F68684 /* ModelClasses */,
+				18E35537219560AA00F68684 /* Extensions */,
+				18E355342195602C00F68684 /* AlertControllerHelper */,
+				18E3553121955FF300F68684 /* Globals */,
+				18E3552E21955FD500F68684 /* Constants */,
+				18E3552B21955F8C00F68684 /* Managers */,
+				18E3552A21955F7800F68684 /* Storyboards */,
+				18E3552921955F6500F68684 /* ViewControllers */,
 				18E354F821955E8F00F68684 /* AppDelegate.swift */,
-				18E354FA21955E8F00F68684 /* ViewController.swift */,
-				18E354FC21955E8F00F68684 /* Main.storyboard */,
 				18E3550221955E9000F68684 /* Assets.xcassets */,
-				18E3550421955E9000F68684 /* LaunchScreen.storyboard */,
 				18E3550721955E9000F68684 /* Info.plist */,
 				18E354FF21955E8F00F68684 /* wishkart_pk.xcdatamodeld */,
 			);
@@ -143,6 +163,79 @@
 				18E3551D21955E9100F68684 /* Info.plist */,
 			);
 			path = wishkart.pkUITests;
+			sourceTree = "<group>";
+		};
+		18E3552921955F6500F68684 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18E354FA21955E8F00F68684 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18E3552A21955F7800F68684 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				18E354FC21955E8F00F68684 /* Main.storyboard */,
+				18E3550421955E9000F68684 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		18E3552B21955F8C00F68684 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18E3552C21955FAD00F68684 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18E3552E21955FD500F68684 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				18E3552F21955FE300F68684 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		18E3553121955FF300F68684 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				18E355322195600900F68684 /* Globals.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		18E355342195602C00F68684 /* AlertControllerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				18E355352195603C00F68684 /* AlertControllerHelper.swift */,
+			);
+			path = AlertControllerHelper;
+			sourceTree = "<group>";
+		};
+		18E35537219560AA00F68684 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18E35538219560C200F68684 /* UIApplication+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18E3554D219561CE00F68684 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				18E3554E219561E200F68684 /* User.swift */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		18E355502195621400F68684 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18E355512195623F00F68684 /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		C2B1A1442DEB06B8BB647B48 /* Frameworks */ = {
@@ -326,20 +419,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-wishkart.pk/Pods-wishkart.pk-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/PullToRefreshKit/PullToRefreshKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToRefreshKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,9 +477,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E3553021955FE300F68684 /* Constants.swift in Sources */,
+				18E3552D21955FAD00F68684 /* NetworkManager.swift in Sources */,
+				18E355362195603C00F68684 /* AlertControllerHelper.swift in Sources */,
+				18E355332195600900F68684 /* Globals.swift in Sources */,
+				18E355522195623F00F68684 /* Utilities.swift in Sources */,
 				18E3550121955E8F00F68684 /* wishkart_pk.xcdatamodeld in Sources */,
 				18E354FB21955E8F00F68684 /* ViewController.swift in Sources */,
+				18E35539219560C200F68684 /* UIApplication+Extension.swift in Sources */,
 				18E354F921955E8F00F68684 /* AppDelegate.swift in Sources */,
+				18E3554F219561E200F68684 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,11 +665,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VSS9T994V4;
 				INFOPLIST_FILE = wishkart.pk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pk";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnain.wishkart-pk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -590,11 +685,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VSS9T994V4;
 				INFOPLIST_FILE = wishkart.pk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wishkart-pk";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnain.wishkart-pk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

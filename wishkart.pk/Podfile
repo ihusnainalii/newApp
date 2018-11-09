@@ -24,15 +24,6 @@ target 'wishkart.pk' do
   # Pod for Loading
   pod 'MBProgressHUD', '~> 0.9'
 
-  # Pods for AutoLayout
-  pod 'SnapKit'
-
-  # Pods for images
-  pod 'Kingfisher'
-
-  # Pod for Pull To Refresh
-  pod 'PullToRefreshKit'
-
   target 'wishkart.pkTests' do
     inherit! :search_paths
     # Pods for testing
