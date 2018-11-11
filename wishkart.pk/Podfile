@@ -23,6 +23,13 @@ target 'wishkart.pk' do
   
   # Pod for Loading
   pod 'MBProgressHUD', '~> 0.9'
+  
+  # Pods for images
+  pod 'Kingfisher'
+  
+  # Pod For Mosaic Gallery Layout
+  pod 'TRMosaicLayout'
+  
 
   target 'wishkart.pkTests' do
     inherit! :search_paths

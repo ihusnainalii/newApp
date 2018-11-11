@@ -17,7 +17,7 @@ class AlertControllerHelper {
         let alertController = UIAlertController(title: appName, message: message, preferredStyle: .alert)
         let successAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alertController.addAction(successAction)
-        //alertController.view.tintColor = appColor
+        alertController.view.tintColor = appColor
         viewController.present(alertController, animated: true, completion:nil)
     }
     

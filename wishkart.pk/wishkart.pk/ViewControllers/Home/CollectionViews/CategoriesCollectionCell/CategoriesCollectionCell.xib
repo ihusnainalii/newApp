@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoriesCollectionCell" customModule="wishkart_pk" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="94" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="94" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHb-qd-gYh">
+                        <rect key="frame" x="0.0" y="0.0" width="94" height="116"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Diu-h8-14A">
+                                <rect key="frame" x="22" y="10" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Poq-eN-Q2H"/>
+                                    <constraint firstAttribute="height" constant="50" id="UX3-DG-Ahv"/>
+                                    <constraint firstAttribute="width" secondItem="Diu-h8-14A" secondAttribute="height" multiplier="1:1" id="qKh-QF-2Pv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electronics" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WjM-uh-odh">
+                                <rect key="frame" x="5" y="70" width="84" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Diu-h8-14A" firstAttribute="centerX" secondItem="NHb-qd-gYh" secondAttribute="centerX" id="4Bd-4p-1yT"/>
+                            <constraint firstAttribute="trailing" secondItem="WjM-uh-odh" secondAttribute="trailing" constant="5" id="Ayh-GK-0eb"/>
+                            <constraint firstItem="WjM-uh-odh" firstAttribute="leading" secondItem="NHb-qd-gYh" secondAttribute="leading" constant="5" id="K6B-bY-FJ8"/>
+                            <constraint firstItem="WjM-uh-odh" firstAttribute="top" secondItem="Diu-h8-14A" secondAttribute="bottom" constant="10" id="P1f-RX-tTH"/>
+                            <constraint firstItem="Diu-h8-14A" firstAttribute="top" secondItem="NHb-qd-gYh" secondAttribute="top" constant="10" id="R08-gZ-GYn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NHb-qd-gYh" secondAttribute="bottom" id="38J-eE-gTs"/>
+                <constraint firstAttribute="trailing" secondItem="NHb-qd-gYh" secondAttribute="trailing" id="D6J-s8-axO"/>
+                <constraint firstItem="NHb-qd-gYh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="RkM-Ha-0Mw"/>
+                <constraint firstItem="NHb-qd-gYh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Xvy-kW-eZI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="104" height="151"/>
+            <connections>
+                <outlet property="cateImage" destination="Diu-h8-14A" id="Lst-ee-D35"/>
+                <outlet property="cateLabel" destination="WjM-uh-odh" id="2hd-E3-CN6"/>
+            </connections>
+            <point key="canvasLocation" x="180.80000000000001" y="165.51724137931035"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="logo" width="223" height="70"/>
+    </resources>
+</document>
